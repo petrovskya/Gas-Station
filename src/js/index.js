@@ -42,7 +42,7 @@ function showAdmin() {
     flex-wrap: nowrap;
     `;
     $HEADER.style.cssText = `
-    background: rgba(128, 128, 128, 0.1);
+    background: rgba(76, 76, 76, 0.2);
     `
   } else {
     $HEADER_INPUT.style.borderColor = 'red';

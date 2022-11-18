@@ -20,12 +20,11 @@ h1 {
 }
 .gas-card {
   z-index: 2;
-  width: 70%;
+  width: 60%;
   margin: 0 15px;
   padding: 30px 30px;
-  border: 2px solid  rgba(128, 128, 128, 0.3);
   border-radius: 10px;
-  box-shadow: 0px 5px 20px 1px rgba(128, 128, 128, 0.3);
+  box-shadow: 0px 10px 20px 2px rgba(128, 128, 128, 0.3);
   &-item {
     display: flex;
     justify-content: space-between;
@@ -38,7 +37,7 @@ h1 {
       font-family: 'Inter', sans-serif;
       font-size: 2.25rem;
       font-weight: 500;
-      color: rgba(255, 127, 80, 0.8);
+      color: rgba(76, 76, 76, 0.8);
       width: 150px;
     }
     input {
@@ -78,7 +77,6 @@ h1 {
   width: 45%;
   margin: 0 15px;
   padding: 20px 30px;
-  border: 2px solid  rgba(128, 128, 128, 0.3);
   border-radius: 10px;
   box-shadow: 0px 5px 20px 1px rgba(128, 128, 128, 0.3);
   .admin-card-item {
@@ -94,7 +92,7 @@ h1 {
       width: 25%;
       font-size: 1.875rem;
       font-weight: 500;
-      color: rgba(255, 127, 80, 0.8);
+      color: rgb(76, 76, 76,0.8);
     }
     .admin-input {
       max-width: 120px;
@@ -146,18 +144,19 @@ h1 {
     text-align: center;
     align-self: center;
     padding: 10px 0;
+    color: rgba(76, 76, 76, 0.8);
   }
   .cost-out {
     font-weight: 400;
     font-size: 36px;
     font-family: 'Inter', sans-serif;
-    color: grey;
+    color: rgba(76, 76, 76, 0.8);
     margin-left: 10px;
   }
   .val {
     margin-left: 5px;
     font-size: 36px;
-    color: grey;
+    color: rgba(76, 76, 76, 0.8);
   }
 }
 
