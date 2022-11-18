@@ -1,0 +1,20 @@
+@import '../scss/cdn.scss';
+@import '../scss/header.scss';
+@import '../scss/main.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/index.scss">
+  <title>Gas Station</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-wrap">
+        <div class="logo">GAS STATION</div>
+        <div class="current-date"></div>
+        <div class="header-input">
+          <input type="password" id="logIn-input" placeholder="Enter your password">
+          <button class="logIn-btn">Log in</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="main">
+    <div class="container">
+      <h1 class="main-title">Расчет стоимости топлива</h1>
+      <div class="main-wrap">
+        <div class="gas-card">
+          <div class="gas-card-item">
+            <label for="92">АИ-92</label>
+            <input type="number" data-id="92" data-cost="2.5" data-gas="92" placeholder="литры">
+            <button class="gas-card-btn" data-res="92">✓</button>
+          </div>
+          <div class="gas-card-item">
+            <label for="95">АИ-95</label>
+            <input type="number" data-id="95" data-cost="2.8"  data-gas="95" placeholder="литры"8>
+            <button class="gas-card-btn" data-res="95">✓</button>
+          </div>
+          <div class="gas-card-item">
+            <label for="98">АИ-98</label>
+            <input type="number" data-id="98" data-cost="3.00" data-gas="98" placeholder="литры">
+            <button class="gas-card-btn" data-res="98">✓</button>
+          </div>
+          <div class="gas-card-item">
+            <label for="ДТ">ДТ</label>
+            <input type="number" data-id="ДТ" data-cost="2.2"  data-gas="ДТ" placeholder="литры">
+            <button class="gas-card-btn" data-res="ДТ">✓</button>
+          </div>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-item">
+            <label class="admin-label" for="92">АИ-92</label>
+            <input class="admin-input" type="number" data-id="92" data-admin="92" placeholder="0">
+            <button class="admin-btn" data-btn="92">Установить</button>
+          </div>
+          <div class="admin-card-item">
+            <label class="admin-label" for="95">АИ-95</label>
+            <input class="admin-input" type="number" data-id="95" data-admin="95" placeholder="0">
+            <button class="admin-btn" data-btn="95">Установить</button>
+          </div>
+          <div class="admin-card-item">
+            <label class="admin-label" for="98">АИ-98</label>
+            <input class="admin-input" type="number" data-id="98" data-admin="98" placeholder="0">
+            <button class="admin-btn" data-btn="98">Установить</button>
+          </div>
+          <div class="admin-card-item">
+            <label class="admin-label" for="ДТ">ДТ</label>
+            <input class="admin-input" type="number" data-id="ДТ" data-admin="ДТ" placeholder="0">
+            <button class="admin-btn" data-btn="ДТ">Установить</button>
+          </div>
+        </div>
+      </div>
+      <div class="cost-wrap">
+        <span class="cost-name"></span>
+        <div class="cost-out"></div>
+        <span class="val"> руб.</span>
+      </div>
+    </div>
+  </section>
+  
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
